@@ -4,6 +4,7 @@
 
 в терминале прописать 
 npm install
+
 .\start.ps1
 
 
