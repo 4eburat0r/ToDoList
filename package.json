@@ -1,0 +1,12 @@
+{
+  "name": "todolist-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "concurrently \"go run backend/main.go\" \"npm --prefix frontend start\"",
+    "start:ps1": "powershell -NoProfile -ExecutionPolicy Bypass -File .\\start.ps1"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
