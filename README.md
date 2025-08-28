@@ -3,9 +3,10 @@
 Запустить приложение локально:
 
 в терминале прописать 
-npm install
 
-.\start.ps1
+1) npm install
+
+2) .\start.ps1
 
 
 
